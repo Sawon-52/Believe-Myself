@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+header .content > h3{
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+header .content > p{
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 494px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button{
+        width: 160px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFF;
+        color: #005FAC;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        margin-top: 32px;
+}
+
+
+/* Start main part  */
+
+main{
+    margin-top: 0px;
+    padding-left: 230px;
+    padding-right: 230px;
+    margin-bottom: 115px;
+}
+
+/* Start failures section  */
+
+.failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.failures .confused_img{
+    margin-left: 87px;
+}
+.failures_content > h3{
+    width: 288px;
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failures_content > p{
+    width: 416px;
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.failures_content ul {
+    list-style: none;
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.failures_content ul li{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Start my plans section  */
+
+.my_plans{
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+.my_plans > h3{
+    color:  #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+
+}
+.plan_contaier{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.plan_items img{
+    width: 92.958px;
+    height: 92.958px;
+}
+.plan_items > h3{
+    color:  #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan_items > p{
+    color:  #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* start call now section  */
+.call_now{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%) , url(images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    padding: 64px;
+
+}
+.call_now > h3{    
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* start footer part */
+footer{
+    width: 100%;
+    height: 577px;
+    background:#151414;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.future > h3{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future  p{
+    width: 485px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.future  ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.subscribe > h3{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.subscribe form{
+   display: flex; 
+   flex-direction: column;
+}
+.subscribe form [type="text"]{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    background: #151414;
+    border: 1px solid #FFF;
+    color:  #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    padding:10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.sub_button{
+    margin-top: 0px;
+    background-color: #005FAC;
+    color: #FFF;
+}
+
+/* complete */
+
+
+
+
+
+
+
+
+
+
